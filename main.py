@@ -30,7 +30,9 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 def main() -> None:
     """Start the bot."""
+    # Load .env configs
     load_dotenv()
+
     # Create the Application and pass it your bot's token.
     application = Application.builder().token(os.getenv("TOKEN")).build()
 
