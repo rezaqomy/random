@@ -1,0 +1,3 @@
+python-telegram-bot
+log21
+python-dotenv
